@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Army Records Schema -->
+  <xs:element name="army_records">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="soldier" type="soldierType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Soldier Type Definition -->
+  <xs:complexType name="soldierType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="rank" type="xs:string"/>
+      <xs:element name="unit" type="xs:string"/>
+      <xs:element name="service_date" type="xs:date"/>
+      <xs:element name="status" type="statusType"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- Status Type with enumeration -->
+  <xs:simpleType name="statusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Active"/>
+      <xs:enumeration value="Retired"/>
+      <xs:enumeration value="Deceased"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema> 

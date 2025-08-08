@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="report_schema.xsd">
+
+  <document>
+    <id>DOC001</id>
+    <dateTime>2025-08-03T10:30:00</dateTime>
+    <documentNumber>INT-452A</documentNumber>
+    <to>Head Intelligence Unit</to>
+    <communicationMode>Email</communicationMode>
+    <link>http://intranet.intel.org/reports/452A</link>
+    <subject>Suspected arms movement</subject>
+    <securityClassification>Top Secret</securityClassification>
+    <unit>Unit 27</unit>
+    <text>Movement detected near border sector C2. Three individuals observed with suspected contraband.</text>
+    <remarks>Needs satellite confirmation.</remarks>
+  </document>
+
+  <document>
+    <id>DOC002</id>
+    <dateTime>2025-08-03T12:45:00</dateTime>
+    <documentNumber>INT-453B</documentNumber>
+    <to>Regional Command Center</to>
+    <communicationMode>Encrypted Call</communicationMode>
+    <link>http://intranet.intel.org/reports/453B</link>
+    <subject>Intercepted communication</subject>
+    <securityClassification>Confidential</securityClassification>
+    <unit>Unit 31</unit>
+    <text>Phone call intercepted discussing logistics for a planned attack.</text>
+    <remarks>Transcript under review.</remarks>
+  </document>
+
+</report>

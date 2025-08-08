@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<army_records>
+  <soldier>
+    <id>001</id>
+    <name>John Smith</name>
+    <rank>Sergeant</rank>
+    <unit>Alpha Company</unit>
+    <service_date>2020-01-15</service_date>
+    <status>Active</status>
+  </soldier>
+  <soldier>
+    <!-- Missing ID field -->
+    <name>Jane Doe</name>
+    <rank>Lieutenant</rank>
+    <unit>Bravo Company</unit>
+    <service_date>2019-03-20</service_date>
+    <status>Active</status>
+  </soldier>
+  <soldier>
+    <id>003</id>
+    <name>Mike Johnson</name>
+    <!-- Missing rank field -->
+    <unit>Charlie Company</unit>
+    <service_date>2018-07-10</service_date>
+    <status>InvalidStatus</status> <!-- Invalid status value -->
+  </soldier>
+  <soldier>
+    <id>004</id>
+    <name>Sarah Wilson</name>
+    <rank>Major</rank>
+    <unit>Delta Company</unit>
+    <service_date>invalid-date</service_date> <!-- Invalid date format -->
+    <status>Active</status>
+  </soldier>
+  <soldier>
+    <id>005</id>
+    <name>Robert Brown</name>
+    <rank>Colonel</rank>
+    <unit>Echo Company</unit>
+    <!-- Missing service_date field -->
+    <status>Deceased</status>
+  </soldier>
+</army_records> 

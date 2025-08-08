@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<army_records>
+  <soldier>
+    <id>001</id>
+    <name>John Smith</name>
+    <rank>Sergeant</rank>
+    <unit>Alpha Company</unit>
+    <service_date>2020-01-15</service_date>
+    <status>Active</status>
+  </soldier>
+  <soldier>
+    <id>002</id>
+    <name>Jane Doe & Company</name>
+    <rank>Lieutenant</rank>
+    <unit>Bravo Company</unit>
+    <service_date>2019-06-20</service_date>
+    <status>Active</status>
+  </soldier>
+  <soldier>
+    <id>003</id>
+    <name>Mike Johnson</name>
+    <rank>Private</rank>
+    <unit>Charlie Company</unit>
+    <service_date>2021-03-10</service_date>
+    <status>Active</status>
+  </soldier>
+</army_records> 
